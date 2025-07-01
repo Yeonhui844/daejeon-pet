@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  letter-spacing: -0.23px;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.main {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background-image: url(../images/dogs.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  position: relative;
+  padding: 0 60px;
+  padding-top: 30px;
+  gap: 100px;
+}
+
+.logo-box {
+  width: 396px;
+  height: 77px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-box a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-box a img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+.nav-box {
+  position: relative;
+}
+
+.nav-box > ul {
+  display: flex;
+  position: relative;
+}
+
+.nav-box a {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-box > ul > li {
+  position: relative;
+}
+.nav-box > ul > li > a {
+  font-family: "Pretendard", serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.submenu {
+}
+
+.submenu > li {
+}
+.submenu > li > a {
+}
+
+.login-box {
+  display: flex;
+}
+.text-box {
+  position: absolute;
+  top: 300px;
+  left: 200px;
+}
+
+.text-box h1 {
+  font-family: "Pretendard", serif;
+  font-size: 64px;
+  color: #fff;
+}
